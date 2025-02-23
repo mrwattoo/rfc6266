@@ -13,7 +13,7 @@ setup(
     platforms='OS-independent',
     py_modules=['rfc6266', 'test_rfc6266'],
     install_requires=['LEPL'],
-    use_2to3=True,
+    #use_2to3=True,
     long_description=open('README').read(),
     classifiers=(
         'Programming Language :: Python :: 2',
